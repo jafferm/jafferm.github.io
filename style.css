@@ -1,0 +1,48 @@
+table,
+        tr,
+        th,
+        td {
+        border: 1px solid;
+        border-collapse: collapse;
+        margin: 0 auto;
+        }
+        img{
+            width: 299px;
+        }
+        div{
+            text-align: center;
+
+        }
+        
+body {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url('background.jpg'); /* Replace 'background.jpg' with your image file name */
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+            /* Additional styles to ensure content is visible on top of the background image */
+    }
+.cont1{
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 30px; 
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+}
+.cont2{
+    background-color: rgba(250, 247, 99, 0.7);
+    border-radius: 30px; 
+    padding: 20px;
+    text-align:left;
+    margin: 5%;
+    width: 100%;
+}
+.contm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+}
